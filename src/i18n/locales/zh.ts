@@ -66,6 +66,7 @@ export const zh: TranslationKeys = {
   "footer.contact": "联系我们",
   "footer.copyright": "© {year} 轻雪工作室. All rights reserved.",
   "footer.studio.description": "构建未来的开源工具",
+  "footer.cdn": "内容分发网络",
 
   // Contact
   "contact.github": "GitHub",

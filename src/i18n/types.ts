@@ -66,6 +66,7 @@ export interface TranslationKeys {
   "footer.contact": string
   "footer.copyright": string
   "footer.studio.description": string
+  "footer.cdn": string
 
   // Contact
   "contact.github": string

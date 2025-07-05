@@ -69,6 +69,7 @@ export const en: TranslationKeys = {
   "footer.contact": "Contact Us",
   "footer.copyright": "© {year} Liteyuki Studio. All rights reserved.",
   "footer.studio.description": "Building the future of open source tools",
+  "footer.cdn": "Content Delivery Network",
 
   // Contact
   "contact.github": "GitHub",

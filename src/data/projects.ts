@@ -60,7 +60,7 @@ export const projects: Project[] = [
     stars: 2340,
     forks: 345,
     language: "Misskey",
-    url: "https://lab.liteyuki.icu",
+    url: "https://lab.liteyuki.org",
     status: "stable",
     category: "deployment",
     tags: ["go", "deployment", "cloud"],

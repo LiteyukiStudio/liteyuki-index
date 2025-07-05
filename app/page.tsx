@@ -84,6 +84,8 @@ export default function HomePage() {
               <Image
                 src="https://cdn.liteyuki.org/logos/studio.svg"
                 alt="Liteyuki Studio Logo"
+                width={32}
+                height={32}
                 className="w-8 h-8"
                 onError={(e) => {
                   e.currentTarget.style.display = "none"
@@ -106,7 +108,7 @@ export default function HomePage() {
               <Link href="#about" className="hover:text-blue-300 transition-colors">
                 {t("header.about")}
               </Link>
-              <Link href="https://lab.liteyuki.icu" className="hover:text-blue-300 transition-colors">
+              <Link href="https://lab.liteyuk.org" className="hover:text-blue-300 transition-colors">
                 {t("header.community")}
               </Link>
               <LanguageSwitcher />
@@ -254,7 +256,7 @@ export default function HomePage() {
                 {t("cta.contribute")}
               </Link>
               <Link
-                href="https://lab.liteyuki.icu"
+                href="https://lab.liteyuki.org"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 border border-white/20 text-white hover:bg-white/10 rounded-md transition-colors flex items-center justify-center"
@@ -277,6 +279,8 @@ export default function HomePage() {
                   src="https://cdn.liteyuki.org/logos/studio.svg"
                   alt="Liteyuki Studio Logo"
                   className="w-8 h-8"
+                  width={32}
+                  height={32}
                   onError={(e) => {
                     e.currentTarget.style.display = "none"
                     const fallback = e.currentTarget.nextElementSibling as HTMLElement
@@ -293,6 +297,7 @@ export default function HomePage() {
               </div>
               <p className="text-gray-400">{t("footer.studio.description")}</p>
             </div>
+            {/* 产品 */}
             <div>
               <h4 className="font-semibold mb-4">{t("footer.products")}</h4>
               <ul className="space-y-2 text-gray-400">
@@ -310,6 +315,7 @@ export default function HomePage() {
                 ))}
               </ul>
             </div>
+            {/* 社区 */}
             <div>
               <h4 className="font-semibold mb-4">{t("footer.community")}</h4>
               <ul className="space-y-2 text-gray-400">
@@ -326,7 +332,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="https://lab.liteyuki.icu"
+                    href="https://lab.liteyuki.org"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-white transition-colors flex items-center"
@@ -337,7 +343,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="mailto:contact@liteyuki.icu"
+                    href="mailto:contact@liteyuki.org"
                     className="hover:text-white transition-colors flex items-center"
                   >
                     <Mail className="w-4 h-4 mr-2" />
@@ -346,24 +352,27 @@ export default function HomePage() {
                 </li>
               </ul>
             </div>
+            {/* 支持 */}
             <div>
               <h4 className="font-semibold mb-4">{t("footer.support")}</h4>
               <ul className="space-y-2 text-gray-400">
+                
                 <li>
                   <Link href="#" className="hover:text-white transition-colors">
                     {t("footer.docs")}
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
-                    {t("footer.tutorials")}
+                  <Link href="https://cdn.liteyuki.org" className="hover:text-white transition-colors">
+                    {t("footer.cdn")}
                   </Link>
                 </li>
                 <li>
-                  <Link href="mailto:contact@liteyuki.icu" className="hover:text-white transition-colors">
+                  <Link href="mailto:contact@liteyuki.org" className="hover:text-white transition-colors">
                     {t("footer.contact")}
                   </Link>
                 </li>
+                
               </ul>
             </div>
           </div>

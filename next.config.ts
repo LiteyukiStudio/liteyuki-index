@@ -1,6 +1,8 @@
-import type { NextConfig } from "next";
+const nextConfig = {
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
+}
 
-const nextConfig: NextConfig = {
-  output: "export", // 启用静态导出
-};
 module.exports = nextConfig
